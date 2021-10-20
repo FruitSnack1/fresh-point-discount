@@ -1,0 +1,26 @@
+{
+  "name": "fresh-point-discount",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FruitSnack1/fresh-point-discount.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FruitSnack1/fresh-point-discount/issues"
+  },
+  "homepage": "https://github.com/FruitSnack1/fresh-point-discount#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
+}
