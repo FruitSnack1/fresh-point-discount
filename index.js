@@ -42,6 +42,38 @@ app.get('/', async (req, res) => {
         }
     })
     res.json(menu)
+    // res.json([
+    //     {
+    //         price: '59.90',
+    //         name: 'karel',
+    //         discount: '29.90',
+    //         img: 'https://i.imgur.com/UOnlKZz.jpeg',
+    //     },
+    //     {
+    //         price: '99.90',
+    //         name: 'karel',
+    //         discount: '59.90',
+    //         img: 'https://i.imgur.com/UOnlKZz.jpeg',
+    //     },
+    //     {
+    //         price: '79.90',
+    //         name: 'karel',
+    //         discount: '39.90',
+    //         img: 'https://i.imgur.com/UOnlKZz.jpeg',
+    //     },
+    //     {
+    //         price: '79.90',
+    //         name: 'karel',
+    //         discount: '39.90',
+    //         img: 'https://i.imgur.com/UOnlKZz.jpeg',
+    //     },
+    //     {
+    //         price: '79.90',
+    //         name: 'karel',
+    //         discount: '39.90',
+    //         img: 'https://i.imgur.com/UOnlKZz.jpeg',
+    //     },
+    // ])
 })
 
 app.listen('8080', () => console.log('Server listening...'))
